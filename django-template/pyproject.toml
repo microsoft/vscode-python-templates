@@ -1,0 +1,10 @@
+[project]
+name = "django-app"
+version = "0.1.0"
+description = "A simple Django application."
+
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.dependencies]
+dependencies = "requirements.txt"
