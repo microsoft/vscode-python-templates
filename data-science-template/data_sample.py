@@ -32,6 +32,3 @@ def highest_revenue_industry():
     print("The industry with the highest revenue is ", top_revenue_industry)
 
     return top_revenue_industry
-
-    
-revenue_per_industry()
