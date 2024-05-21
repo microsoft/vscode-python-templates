@@ -1,4 +1,4 @@
-from data_sample import get_public_orgs, revenue_per_industry
+from calculations import get_public_orgs, revenue_per_industry
 import pytest
 
 
