@@ -9,5 +9,5 @@ requires-python = ">=3.11"
 [project.dependencies]
 dependencies = "requirements.txt"
 
-[project.dev-dependencies]
-dependencies = "dev-requirements.txt"
+[project.optional-dependencies]
+dev-requirements = {file = "dev-requirements.txt"}
