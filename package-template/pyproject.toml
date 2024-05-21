@@ -5,7 +5,9 @@ description = "A Python package template."
 readme = "README.md"
 
 requires-python = ">=3.8"
-dependencies = {file = ["dev-requirements.txt"]}
+
+[project.optional-dependencies]
+dev-requirements = {file = "dev-requirements.txt"}
 
 [build-system]
 requires = ["setuptools", "wheel"]

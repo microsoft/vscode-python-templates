@@ -1,6 +1,6 @@
 import pytest
 from datetime import datetime
-from main import date
+from my_package.__main__ import date
 
 @pytest.fixture
 def current_datetime():
