@@ -8,4 +8,4 @@ For a more in-depth tutorial, see our [data science tutorial](https://code.visua
 
 - Open template in specified Dev Container
 - Select the appropriate interpreter/kernel
-- Run the notebook `data_sample.ipynb`
+- Run `calculations.py`
