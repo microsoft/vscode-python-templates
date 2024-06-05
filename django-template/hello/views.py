@@ -32,4 +32,3 @@ def log_message(request):
             return redirect("home")
     else:
         return render(request, "hello/log_message.html", {"form": form})
-        
