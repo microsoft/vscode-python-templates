@@ -13,3 +13,4 @@ def test_set_date_time(current_datetime):
 def test_current_date_time():
     result = date()
     assert isinstance(result, datetime), "The function should return a datetime object"
+    

@@ -11,4 +11,5 @@ def main():
     start_coding()
     print(date())
 
-main()
+if __name__ == "__main__":
+    main()
