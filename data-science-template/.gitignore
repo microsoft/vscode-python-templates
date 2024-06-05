@@ -1,4 +1,5 @@
 # Environments
+.conda
 .env
 .venv
 env/
