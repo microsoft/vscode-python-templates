@@ -6,7 +6,7 @@ This repository contains sample code illustrating various Python related project
 
 You can expect from each sample:
 - An explanation of its functionality
-- Link to a guide on Python in VS Code website, if it has one
+- Link to a guide on the [VS Code website](https://code.visualstudio.com/docs), if it has one
 - Appropriate configuration files
 - Sample code
 
@@ -16,9 +16,12 @@ You need to have the [Python extension](https://marketplace.visualstudio.com/ite
 
 ## Usage
 
-- `git clone https://github.com/Microsoft/vscode-python-templates`
-- `code <any-sample-folder>`
-- Alternatively, follow the instructions in each sample's README for setting up and running the sample
+- Clone the repository:
+> `git clone https://github.com/Microsoft/vscode-python-templates`
+- Open it in VS Code: 
+> `code <path-to-sample-folder>`
+
+Alternatively, you can follow the instructions in each sample's README for setting up and running the sample.
 
 ## Templates
 
