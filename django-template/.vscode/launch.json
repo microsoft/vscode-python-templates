@@ -12,6 +12,7 @@
             "console": "integratedTerminal",
             "args": [
                 "runserver",
+                "--port=5000"
                 
             ],
             "django": true,

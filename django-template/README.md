@@ -12,7 +12,7 @@ To successfully run this example, we recommend the following VS Code extensions:
 - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) 
 
 - Open template repo
-- Create a Python virtual environment using the **Python: Create Environment** command found in the Command Palette. Ensure you install dependencies found in the `requirements.txt` file.
+- Create a Python virtual environment using the **Python: Create Environment** command found in the Command Palette. Ensure you install dependencies found in the `pyproject.toml` file.
 - Ensure your newly created environment is selected using the **Python: Select Interpreter** command found in the Command Palette.
 - Create and initialize the database by running `python manage.py migrate` in an activated terminal. 
 - Run the app using the Run and Debug view or by pressing `F5`.

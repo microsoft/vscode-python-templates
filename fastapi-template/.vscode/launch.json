@@ -11,7 +11,8 @@
             "module": "uvicorn",
             "args": [
                 "main:app",
-                "--reload"
+                "--reload",
+                "--port=5000"
             ],
             "jinja": true,
             "autoStartBrowser": true
