@@ -2,7 +2,7 @@
 VS Code Python Repo Templates
 </h1>
 
-This repository contains sample code illustrating various Python related projects and their recommended configruation. Each sample is a self-contained scenario that provides a recommended project configuration and some sample code to get you started. You can read, play with or adapt from these samples to create your own extensions.
+This repository contains sample code illustrating various Python related projects and their recommended configuration. Each sample is a self-contained scenario that provides a recommended project configuration and some sample code to get you started. You can read, play with or adapt from these samples to create your own projects.
 
 You can expect from each sample:
 - An explanation of its functionality
