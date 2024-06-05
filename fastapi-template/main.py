@@ -6,18 +6,18 @@ messages_list: dict[int, MsgPayload] = {}
 
 
 @app.get("/")
-def root():
+def root()   -> dict[str, str]:
     return {"message": "Hello"}
 
 
 # About page route
 @app.get("/about")
-def about():
+def about() -> dict[str, str]:
     return {"message": "This is the about page."}
 
 # Route to add a message
 @app.post("/messages/{msg_name}/")
-def add_msg(msg_name: str):
+def add_msg(msg_name: str) -> dict[str, MsgPayload]:
     
     # generate an ID for the item based on the highest ID in the messages_list
     msg_id = max(messages_list.keys()) + 1 if messages_list else 0
