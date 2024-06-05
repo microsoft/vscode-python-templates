@@ -9,3 +9,4 @@ class LogMessage(models.Model):
         """Returns a string representation of a message."""
         date = timezone.localtime(self.log_date)
         return f"'{self.message}' logged on {date.strftime('%A, %d %B, %Y at %X')}"
+        

@@ -29,3 +29,4 @@ class TestViews(TestCase):
         response = self.client.get('/a-url-that-does-not-exist')
 
         self.assertEquals(response.status_code, 404)
+        

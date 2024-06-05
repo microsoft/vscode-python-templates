@@ -12,11 +12,13 @@
             "console": "integratedTerminal",
             "args": [
                 "runserver",
-                "--noreload",
-                "--nothreading"
+                
             ],
             "django": true,
-            "autoStartBrowser": true
+            "autoStartBrowser": true,
+            "autoReload": {
+                "enable": true
+            }
         }
     ]
 }
