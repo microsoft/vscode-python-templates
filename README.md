@@ -16,9 +16,9 @@ You need to have the [Python extension](https://marketplace.visualstudio.com/ite
 
 ## Usage
 
-- Clone the repository:
+- Open the terminal and clone this repository:
 > `git clone https://github.com/Microsoft/vscode-python-templates`
-- Open it in VS Code: 
+- Open one of the template folders in VS Code: 
 > `code <path-to-sample-folder>`
 
 Alternatively, you can follow the instructions in each sample's README for setting up and running the sample.

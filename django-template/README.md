@@ -11,10 +11,9 @@ To successfully run this example, we recommend the following VS Code extensions:
 - [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy)
 - [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) 
 
-- Open template repo
-- Create a Python virtual environment using the **Python: Create Environment** command found in the Command Palette (**View > Command Palette**). Ensure you install dependencies found in the `pyproject.toml` file.
-- Ensure your newly created environment is selected using the **Python: Select Interpreter** command found in the Command Palette.
+- Open the template folder in VS Code (**File** > **Open Folder...**)
+- Create a Python virtual environment using the **Python: Create Environment** command found in the Command Palette (**View > Command Palette**). Ensure you install dependencies found in the `pyproject.toml` file
+- Ensure your newly created environment is selected using the **Python: Select Interpreter** command found in the Command Palette
 - Create and initialize the database by running `python manage.py migrate` in an activated terminal. 
-- Run the app using the Run and Debug view or by pressing `F5`.
-- Navigate to the Test Panel to configure your Python test or by triggering the **Python: Configure Tests** command from the Command Palette.
-- Run tests by running `python manage.py test` in an activated terminal.  
+- Run the app using the Run and Debug view or by pressing `F5`
+- Run tests by running `python manage.py test` in an activated terminal

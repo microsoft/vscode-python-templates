@@ -11,8 +11,7 @@
             "program": "${workspaceFolder}/manage.py",
             "console": "integratedTerminal",
             "args": [
-                "runserver",
-                "--port=5000"
+                "runserver"
                 
             ],
             "django": true,
