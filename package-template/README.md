@@ -6,6 +6,8 @@ This sample repo contains the recommended structure for a Python package.
 
 This sample makes use of Dev Containers, in order to leverage this setup, make sure you have [Docker installed](https://www.docker.com/products/docker-desktop).
 
+The code in this repo aims to follow Python style guidelines as outlined in [PEP 8](https://peps.python.org/pep-0008/).
+
 To successfully run this example, we recommend the following VS Code extensions:
 
 - [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers)

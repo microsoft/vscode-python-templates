@@ -4,6 +4,8 @@ This sample repo contains the recommended structure for a Python script. In this
 
 For a more in-depth tutorial, see our [Python tutorial](https://code.visualstudio.com/docs/python/python-tutorial).
 
+The code in this repo aims to follow Python style guidelines as outlined in [PEP 8](https://peps.python.org/pep-0008/).
+
 ## Running the Sample
 
 - Open the template folder in VS Code (**File** > **Open Folder...**)

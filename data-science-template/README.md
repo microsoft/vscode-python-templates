@@ -4,6 +4,8 @@ This sample repo contains the recommended structure for a Python data science pr
 
 For a more in-depth tutorial, see our [data science tutorial](https://code.visualstudio.com/docs/datascience/data-science-tutorial).
 
+The code in this repo aims to follow Python style guidelines as outlined in [PEP 8](https://peps.python.org/pep-0008/).
+
 ## Running the Sample
 
 To successfully run this example, we recommend the following VS Code extensions:

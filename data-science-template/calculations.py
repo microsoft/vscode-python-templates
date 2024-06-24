@@ -1,5 +1,6 @@
 import pandas
 
+
 def load_data():
     FILE_PATH = "data/data.csv"
     df = pandas.read_csv(FILE_PATH)
@@ -24,12 +25,14 @@ def revenue_per_industry():
 
     return rev_ratio
 
+
 def highest_revenue_industry():
     df = load_data()
     revenue_by_industry = df.groupby("Industry")["Revenue"].sum()
     top_revenue_industry = revenue_by_industry.idxmax()
 
     return top_revenue_industry
+
 
 def main():
     num_public_orgs = get_public_orgs()

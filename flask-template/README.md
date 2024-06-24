@@ -4,6 +4,8 @@ This sample repo contains the recommended structure for a Python Flask project. 
 
  For a more in-depth tutorial, see our [Flask tutorial](https://code.visualstudio.com/docs/python/tutorial-flask).
 
+ The code in this repo aims to follow Python style guidelines as outlined in [PEP 8](https://peps.python.org/pep-0008/).
+
 ## Running the Sample
 
 To successfully run this example, we recommend the following VS Code extensions:
