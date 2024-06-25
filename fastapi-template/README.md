@@ -27,6 +27,7 @@ In addition to these extension there a few settings that are also useful to enab
 - Open the Command Palette in VS Code (**View > Command Palette...**) and run the **Dev Container: Reopen in Container** command.
 - Run the app using the Run and Debug view or by pressing `F5`
 - `Ctrl + click` on the URL that shows up on the terminal to open the running application 
+- `Ctrl + click` on the URL that shows up on the terminal to open the running application 
 - Test the API functionality by navigating to `/docs` URL to view the Swagger UI
 - Configure your Python test in the Test Panel or by triggering the **Python: Configure Tests** command from the Command Palette
 - Run tests in the Test Panel or by clicking the Play Button next to the individual tests in the `test_main.py` file
