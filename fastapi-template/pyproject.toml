@@ -1,0 +1,13 @@
+[project]
+name = "FastAPI-app"
+version = "0.1.0"
+description = "A simple FastAPI application."
+
+readme = "README.md"
+requires-python = ">=3.11"
+
+[project.dependencies]
+dependencies = "requirements.txt"
+
+[project.optional-dependencies]
+dev-requirements = {file = "dev-requirements.txt"}

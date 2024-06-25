@@ -1,33 +1,43 @@
-# Project
+<h1 align="center">
+VS Code Python Repo Templates
+</h1>
 
-> This repo has been populated by an initial template to help get you started. Please
-> make sure to update the content to build a great experience for community-building.
+This repository contains sample code illustrating various Python related projects and their recommended configuration. Each sample is a self-contained scenario that provides a recommended project configuration and some sample code to get you started. You can read, play with or adapt from these samples to create your own projects.
 
-As the maintainer of this project, please make a few updates:
+You can expect from each sample:
+- An explanation of its functionality
+- Link to a guide on the [VS Code website](https://code.visualstudio.com/docs), if it has one
+- Appropriate configuration files
+- Sample code
 
-- Improving this README.MD file to provide a great experience
-- Updating SUPPORT.MD with content about this project's support experience
-- Understanding the security reporting process in SECURITY.MD
-- Remove this section from the README
+## Prerequisites
 
-## Contributing
+You need to have the [Python extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python) including [Pylance](https://marketplace.visualstudio.com/items?itemName=ms-python.vscode-pylance) and the [Python Debugger](https://marketplace.visualstudio.com/items?itemName=ms-python.debugpy) installed in VS Code. For some templates, [Dev Containers](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.remote-containers) are also recommended. 
 
-This project welcomes contributions and suggestions.  Most contributions require you to agree to a
-Contributor License Agreement (CLA) declaring that you have the right to, and actually do, grant us
-the rights to use your contribution. For details, visit https://cla.opensource.microsoft.com.
+## Usage
 
-When you submit a pull request, a CLA bot will automatically determine whether you need to provide
-a CLA and decorate the PR appropriately (e.g., status check, comment). Simply follow the instructions
-provided by the bot. You will only need to do this once across all repos using our CLA.
+- Open the terminal and clone this repository:
+> `git clone https://github.com/Microsoft/vscode-python-templates`
+- Open one of the template folders in VS Code: 
+> `code <path-to-sample-folder>`
 
-This project has adopted the [Microsoft Open Source Code of Conduct](https://opensource.microsoft.com/codeofconduct/).
-For more information see the [Code of Conduct FAQ](https://opensource.microsoft.com/codeofconduct/faq/) or
-contact [opencode@microsoft.com](mailto:opencode@microsoft.com) with any additional questions or comments.
+Alternatively, you can follow the instructions in each sample's README for setting up and running the sample.
 
-## Trademarks
+## Templates
 
-This project may contain trademarks or logos for projects, products, or services. Authorized use of Microsoft 
-trademarks or logos is subject to and must follow 
-[Microsoft's Trademark & Brand Guidelines](https://www.microsoft.com/en-us/legal/intellectualproperty/trademarks/usage/general).
-Use of Microsoft trademarks or logos in modified versions of this project must not cause confusion or imply Microsoft sponsorship.
-Any use of third-party trademarks or logos are subject to those third-party's policies.
+<!-- SAMPLES_BEGIN -->
+| Template | Guide/Docs |
+| ------ | ----- | 
+| [Data Science Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/data-science-template) | [Data science tutorial](https://code.visualstudio.com/docs/datascience/data-science-tutorial) | 
+| [Django Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/django-template) | [Django tutorial](https://code.visualstudio.com/docs/python/tutorial-django) | 
+| [Flask Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/flask-template) | [Flask tutorial](https://code.visualstudio.com/docs/python/tutorial-flask) | 
+| [Fast API Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/fastapi-template) | [FastAPI tutorial](https://code.visualstudio.com/docs/python/tutorial-fastapi)  |
+| [Python Package Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/package-template) | N/A |
+| [Python Script Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/script-template) | [Python tutorial](https://code.visualstudio.com/docs/python/python-tutorial) |
+<!-- SAMPLES_END -->
+
+## License
+
+Copyright (c) Microsoft Corporation. All rights reserved.
+
+Licensed under the [MIT](https://github.com/microsoft/vscode-python-templates/blob/main/LICENSE) License.
