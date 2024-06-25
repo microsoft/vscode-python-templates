@@ -2,7 +2,7 @@
 
 This sample repo contains the recommended structure for a Python package.
 
-## Running the Sample
+## Setup Instructions 
 
 This sample makes use of Dev Containers, in order to leverage this setup, make sure you have [Docker installed](https://www.docker.com/products/docker-desktop).
 
@@ -21,6 +21,7 @@ In addition to these extension there a few settings that are also useful to enab
 - Python > Analysis > Inlay Hints: **Function Return Types** : `enable`
 - Python > Analysis > Inlay Hints: **Variable Types** : `enable`
 
+## Running the Sample
 - Open the template folder in VS Code (**File** > **Open Folder...**)
 - Open the Command Palette in VS Code (**View > Command Palette...**) and run the **Dev Container: Reopen in Container** command
 - Run the app using the Run and Debug view
