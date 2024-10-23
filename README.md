@@ -28,12 +28,12 @@ Alternatively, you can follow the instructions in each sample's README for setti
 <!-- SAMPLES_BEGIN -->
 | Template | Guide/Docs |
 | ------ | ----- | 
-| [Data Science Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/data-science-template) | [Data science tutorial](https://code.visualstudio.com/docs/datascience/data-science-tutorial) | 
-| [Django Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/django-template) | [Django tutorial](https://code.visualstudio.com/docs/python/tutorial-django) | 
-| [Flask Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/flask-template) | [Flask tutorial](https://code.visualstudio.com/docs/python/tutorial-flask) | 
-| [Fast API Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/fastapi-template) | [FastAPI tutorial](https://code.visualstudio.com/docs/python/tutorial-fastapi)  |
-| [Python Package Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/package-template) | N/A |
-| [Python Script Template](https://github.com/Microsoft/vscode-extension-samples/tree/main/script-template) | [Python tutorial](https://code.visualstudio.com/docs/python/python-tutorial) |
+| [Data Science Template](https://github.com/microsoft/vscode-python-templates/tree/main/data-science-template) | [Data science tutorial](https://code.visualstudio.com/docs/datascience/data-science-tutorial) | 
+| [Django Template](https://github.com/microsoft/vscode-python-templates/tree/main/django-template) | [Django tutorial](https://code.visualstudio.com/docs/python/tutorial-django) | 
+| [Flask Template](https://github.com/microsoft/vscode-python-templates/tree/main/flask-template) | [Flask tutorial](https://code.visualstudio.com/docs/python/tutorial-flask) | 
+| [Fast API Template](https://github.com/microsoft/vscode-python-templates/tree/main/fastapi-template) | [FastAPI tutorial](https://code.visualstudio.com/docs/python/tutorial-fastapi)  |
+| [Python Package Template](https://github.com/microsoft/vscode-python-templates/tree/main/package-template) | N/A |
+| [Python Script Template](https://github.com/microsoft/vscode-python-templates/tree/main/script-template) | [Python tutorial](https://code.visualstudio.com/docs/python/python-tutorial) |
 <!-- SAMPLES_END -->
 
 ## License
