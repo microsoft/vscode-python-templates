@@ -8,5 +8,7 @@
         "./hello",
         "-p",
         "test*.py"
-    ]
+    ],
+    "github.copilot.chat.codeGeneration.useInstructionFiles": true
+
 }
